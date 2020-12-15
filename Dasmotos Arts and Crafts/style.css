@@ -1,0 +1,35 @@
+html {
+    font-family: Helvetica;
+}
+
+header {
+    background-image: url(images/pattern.webp);
+    align-content: center;
+    text-align: center;
+    padding-top: 25px;
+    font-family: 'Helvetica';
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    height: 300px;
+    position: sticky;
+}
+
+#brush .banner {
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    background-color: mediumspringgreen;
+}
+
+#brush p {
+    font-family: 'Helvetica';
+    font-weight: bold;
+}
+
+#brush img {
+    box-shadow: midnightblue;
+    border-radius: 10%;
+}
+
