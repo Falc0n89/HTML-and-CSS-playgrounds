@@ -4,18 +4,24 @@ html {
 
 header {
     background-image: url(images/pattern.webp);
-    align-content: center;
-    text-align: center;
-    padding-top: 25px;
+    text-align: center; 
     font-family: 'Helvetica';
     font-size: 100px;
     font-weight: bold;
     color: khaki;
-    height: 300px;
-    position: sticky;
+    position: static;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 60px 0;
+}
+
+#brush {
+    padding-top: 10px;
 }
 
 #brush .banner {
+    
     font-family: 'Helvetica';
     font-weight: bold;
     font-size: 32px;
@@ -25,11 +31,47 @@ header {
 
 #brush p {
     font-family: 'Helvetica';
-    font-weight: bold;
 }
 
-#brush img {
+img {
     box-shadow: midnightblue;
     border-radius: 10%;
 }
 
+#frame .banner {
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    background-color: lightcoral;
+}
+
+#paint .banner {
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-size: 32px;
+    color: white;
+    background-color:skyblue;
+}
+
+@media only screen and (max-width: 1200px) {
+    #brush {
+        padding-top: 10px;
+    }
+    header {
+        padding-top: 5px;
+        height: 20%;
+        font-size: 60px;
+    } 
+}
+
+@media only screen and (max-width: 725px) {
+    #brush {
+        padding-top: 10px;
+    } 
+   header {
+        padding-top: 10px;
+        height: 10%;
+        font-size: 40px;
+    } 
+}
