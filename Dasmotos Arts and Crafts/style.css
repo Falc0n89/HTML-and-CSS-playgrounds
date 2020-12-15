@@ -3,7 +3,11 @@ html {
 }
 
 header {
+<<<<<<< HEAD
     background-image: url(Images/pattern.webp);
+=======
+    background-image: src= "images/pattern.webp";
+>>>>>>> 198459692df79687daf3a831f18b9b8aadd8045c
     text-align: center; 
     font-family: 'Helvetica';
     font-size: 100px;
